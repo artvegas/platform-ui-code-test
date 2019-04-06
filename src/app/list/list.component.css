@@ -1,36 +1,36 @@
 .list-container {
-  padding: 0px 24px;
-  height: 100vh;
-  border: 1px solid lightgray;
+	padding: 0px 24px;
+	height: 100vh;
+	border: 1px solid lightgray;
 }
 
 h2 {
-  border-bottom: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
 }
 
 .save-btn-wrapper {
-  margin-top:20px;
+	margin-top: 20px;
 }
 
-.fi-torso, fi-telephone, fi-mail{
-  color:gainsboro;
-  margin-right:10px;
+.fi-torso, fi-telephone, fi-mail {
+	color: gainsboro;
+	margin-right: 10px;
 }
 
 .provider-card {
-  border-style:solid;
-  border-width:1px;
-  border-color: #dadada;
-  margin:10px;
-  padding:10px;
-  border-radius:3px;
-  background: white;
-  font-family: 'Roboto', sans-serif;
-  color: #454544;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dadada;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 3px;
+	background: white;
+	font-family: 'Roboto', sans-serif;
+	color: #454544;
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
-  color: #454544;
-  font-weight:lighter;
+	font-family: 'Roboto', sans-serif;
+	color: #454544;
+	font-weight: lighter;
 }

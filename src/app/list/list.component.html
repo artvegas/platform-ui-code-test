@@ -1,70 +1,70 @@
 <div class="list-container">
-  <div class='rows'>
-    <div class='small-12 medium-12 large-6 columns'>
-      <h2>Providers</h2>
-      <div class='rows'>
-        <!-- unselected providers are displayed here -->
-        <div (click)='addToSelectedProviders($event,provider )' *ngFor="let provider of unselectedProviders" class='provider-card small-12 large-8 columns left'>
-            <div class='rows'>
-              <div class='small-12 columns'>
-                <h4><i class='fi-torso'></i>{{provider.name}}</h4>
-              </div>
-            </div>
-            <div class='rows'>
-              <div class='small-3 columns'>
-                Phone:
-              </div>
-              <div class='small-9 columns'>
-                {{provider.phone}}
-              </div>
-            </div>
-            <div class='rows'>
-              <div class='small-3 columns'>
-                Address:
-              </div>
-              <div class='small-9 columns'>
-                {{provider.address}}
-              </div>
-            </div>
-          <div class='rows'>
-            <div class='small-12 columns save-btn-wrapper'>
-              <button (click)='addToSelectedProviders($event,provider )' type='button' class='tiny expand buttons radius success'>Save Provider</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class='small-12 medium-12 large-6 columns'>
-      <h2>Saved Lists</h2>
-      <div class='rows'>
-        <!-- selected providers are displayed here -->
-        <div *ngFor="let provider of selectedProviders" class='provider-card small-12 large-8 columns left'>
-          <div class='rows'>
-            <div class='small-8 columns'>
-              <h4><i class='fi-torso'></i>{{provider.name}}</h4>
-            </div>
-            <div class='small-2 columns right'>
-              <h4 (click)='addToUnselectedProviders($event,provider )'><i class='fi-x'></i></h4>
-            </div>
-          </div>
-          <div class='rows'>
-            <div class='small-3 columns'>
-              Phone:
-            </div>
-            <div class='small-9  columns'>
-              {{provider.phone}}
-            </div>
-          </div>
-          <div class='rows'>
-            <div class='small-3 columns'>
-              Address:
-            </div>
-            <div class='small-9 columns'>
-              {{provider.address}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class='rows'>
+		<div class='small-12 medium-12 large-6 columns'>
+			<h2>Providers</h2>
+			<div class='rows'>
+				<!-- unselected providers are displayed here -->
+				<div (click)='addToSelectedProviders($event,provider )' *ngFor="let provider of unselectedProviders" class='provider-card small-12 large-8 columns left'>
+					<div class='rows'>
+						<div class='small-12 columns'>
+							<h4><i class='fi-torso'></i>{{provider.name}}</h4>
+						</div>
+					</div>
+					<div class='rows'>
+						<div class='small-3 columns'>
+							Phone:
+						</div>
+						<div class='small-9 columns'>
+							{{provider.phone}}
+						</div>
+					</div>
+					<div class='rows'>
+						<div class='small-3 columns'>
+							Address:
+						</div>
+						<div class='small-9 columns'>
+							{{provider.address}}
+						</div>
+					</div>
+					<div class='rows'>
+						<div class='small-12 columns save-btn-wrapper'>
+							<button (click)='addToSelectedProviders($event,provider )' type='button' class='tiny expand buttons radius success'>Save Provider</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class='small-12 medium-12 large-6 columns'>
+			<h2>Saved Lists</h2>
+			<div class='rows'>
+				<!-- selected providers are displayed here -->
+				<div *ngFor="let provider of selectedProviders" class='provider-card small-12 large-8 columns left'>
+					<div class='rows'>
+						<div class='small-8 columns'>
+							<h4><i class='fi-torso'></i>{{provider.name}}</h4>
+						</div>
+						<div class='small-2 columns right'>
+							<h4 (click)='addToUnselectedProviders($event,provider )'><i class='fi-x'></i></h4>
+						</div>
+					</div>
+					<div class='rows'>
+						<div class='small-3 columns'>
+							Phone:
+						</div>
+						<div class='small-9  columns'>
+							{{provider.phone}}
+						</div>
+					</div>
+					<div class='rows'>
+						<div class='small-3 columns'>
+							Address:
+						</div>
+						<div class='small-9 columns'>
+							{{provider.address}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
